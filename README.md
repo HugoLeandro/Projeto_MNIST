@@ -44,7 +44,7 @@ Este repositório apresenta o desenvolvimento completo de um projeto de reconhec
 2. Crie um ambiente virtual para o seu projeto utilizando o `conda`.
 
     ```bash
-    conda env create -f ambiente.yml --name mnist_env
+    conda env create -f environment.yml --name mnist_env
     ```
 
 3. Ative o ambiente.
