@@ -13,7 +13,7 @@ Este repositório apresenta o desenvolvimento completo de um projeto de reconhec
 
 ```
 ├── .gitignore         <- Arquivos e diretórios a serem ignorados pelo Git
-├── ambiente.yml       <- O arquivo de requisitos para reproduzir o ambiente de análise
+├── environment.yml       <- O arquivo de requisitos para reproduzir o ambiente de análise
 ├── LICENSE            <- Licença de código aberto (MIT)
 ├── README.md          <- README principal para desenvolvedores que usam este projeto.
 |
