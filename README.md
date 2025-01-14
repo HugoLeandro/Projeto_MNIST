@@ -1,13 +1,13 @@
 # Reconhecimento de Dígitos Manuscritos com Redes Neurais Convolucionais
 
-![imagem](imagens/mnist.png)
+![imagem](projeto_mnist/mnist.png)
 
 Este repositório apresenta o desenvolvimento completo de um projeto de reconhecimento de dígitos manuscritos utilizando redes neurais convolucionais (CNNs). O objetivo principal foi explorar diferentes arquiteturas de modelos, ajustar hiperparâmetros e validar o modelo com dados externos, garantindo sua robustez e capacidade de generalização.
 
 ## Organização do projeto
 
 
-![imagem](imagens/mnist_teste.png)
+![imagem](projeto_mnist/imagens/mnist_teste.png)
 
 ## Organização do projeto
 
