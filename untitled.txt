@@ -1,0 +1,29 @@
+
+Evolução do meu modelo para reconhecimento de dígitos manuscritos ✍️📈
+Comecei o ano me desafiando com um projeto baseado na base MNIST, conhecida como o "Hello World" do aprendizado de máquina em visão computacional. Minha missão: treinar um modelo capaz de classificar dígitos manuscritos com alta precisão. O caminho até os resultados satisfatórios foi cheio de aprendizados e ajustes estratégicos.
+
+O Início: um modelo básico 🚀
+A primeira versão foi um modelo simples, utilizando TensorFlow e Keras, com poucas camadas e complexidade limitada. Embora o desempenho inicial fosse promissor, ficou claro que seria necessário melhorar tanto a arquitetura quanto os métodos de treinamento para alcançar resultados robustos.
+
+O Progresso: aprendendo com cada etapa 🧠
+1️⃣ Incrementando a complexidade com redes neurais convolucionais (CNNs):
+Adicionei camadas convolucionais, pooling e dropout para evitar overfitting e melhorar a capacidade de generalização do modelo.
+
+2️⃣ Introduzindo técnicas de data augmentation:
+Com ferramentas do TensorFlow e Keras, implementei camadas como RandomRotation, RandomTranslation e RandomZoom, que ampliaram a diversidade dos dados de treinamento, tornando o modelo mais robusto a ruídos e variações.
+
+3️⃣ Ajustando hiperparâmetros com o Keras Tuner:
+Explorei diferentes combinações de hiperparâmetros, ajustando aspectos como o número de filtros, tamanhos de kernel e taxas de dropout. Essa etapa foi essencial para otimizar a performance do modelo.
+
+Resultados e reflexões 🌟
+Ao final do projeto, o modelo atingiu uma precisão superior a 99% nos dados de teste, o que foi extremamente satisfatório. Além disso, testei o modelo com imagens manuscritas criadas no Paint, e os resultados também foram muito bons, validando a eficiência do modelo.
+
+Porém, aqui está o ponto chave:
+Mesmo desde os primeiros modelos, os testes mostravam bons resultados em dados de validação e teste. No entanto, esses testes foram realizados em um ambiente controlado, com imagens semelhantes às do conjunto MNIST.
+
+Quando aplicamos um modelo a cenários reais, com maior diversidade e ruído, os resultados podem variar significativamente. Isso reforça a importância de validar os modelos além dos dados de teste, simulando cenários reais. É fácil alcançar precisão elevada em um ambiente controlado, mas a verdadeira robustez de um modelo é testada fora desse contexto.
+
+Conclusão 💡
+Esse projeto me ensinou muito mais do que otimizar um modelo; ele reforçou a necessidade de pensar além do ambiente controlado, garantindo que as soluções criadas sejam robustas e aplicáveis no mundo real. Para projetos simples, como o MNIST, modelos mais básicos podem ser suficientes. Porém, conforme os desafios aumentam, estratégias como data augmentation e ajuste de hiperparâmetros se tornam indispensáveis.
+
+Você já se deparou com resultados que variaram muito entre o ambiente controlado e o real? 😊
